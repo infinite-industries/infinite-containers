@@ -1,0 +1,20 @@
+version: "3"
+services:
+  infinite-postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: xxx
+      POSTGRES_DB: infinite_api
+
+  api:
+    image: infinite-api
+    restart: always
+    ports:
+      - 3003:3003
+
+  portal:
+    image: infinite-portal
+    restart: always
+    ports:
+      - 3004:3004

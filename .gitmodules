@@ -1,0 +1,12 @@
+[submodule "infinite-portal-container/docker-source/front_end_infinite"]
+	path = infinite-portal-container/docker-source/front_end_infinite
+	url = git@github.com:infinite-industries/front_end_infinite.git
+[submodule "infinite-portal-container/infinite-api-container/docker-source/infite"]
+	path = infinite-portal-container/infinite-api-container/docker-source/infite
+	url = git@github.com:infinite-industries/infinite.git
+[submodule "infinite-api-container/docker-source/infite"]
+	path = infinite-api-container/docker-source/infite
+	url = git@github.com:infinite-industries/infinite.git
+[submodule "infinite-api-container/docker-source/infinite"]
+	path = infinite-api-container/docker-source/infinite
+	url = git@github.com:infinite-industries/infinite.git
